@@ -1,0 +1,204 @@
+<!DOCTYPE html> <!-- Define la versión y estructura del documento-->
+<html lang="en"> 
+
+
+<head>
+    <meta charset="UTF-8"> <!-- tipo de símbolos que podes usar-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatibilidad con los navegadores viejitos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Escala o diseño responsive.-->
+    <title>Document</title> <!-- Le da el nombre a la Web en la pestaña-->
+    <!-- CSS-->
+<link rel="stylesheet" href="style.css">
+
+<!--Font-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    
+
+</head>
+
+
+
+
+
+<body> <!-- Todo lo que pongamos aca es lo que vera el usuario-->
+ 
+    <!-- Encabezados, h1 se puede usar uno solo por archivo-->
+<h1>Titulo</h1> <!-- a --> <h6>Subtitulo</h6>
+
+<!-- Parrafos-->
+ <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, ut voluptatibus, officiis ipsa vitae beatae, fugiat nihil sapiente ullam voluptatem nulla exercitationem minima ducimus modi ab ex ipsum repellendus sint!</p>
+
+ <!-- Espacios, enfasis y bold-->
+ <br> <!-- salto de linea-->
+<em> Cualquier cosa</em><br>
+<strong>Texto en negrita</strong>
+
+<!-- Semantica-->
+
+<header></header>
+<section id="productos">
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, cupiditate.</h1>
+</section>
+
+
+<section>
+<p class="paragraph-one">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, modi?
+</p>
+
+
+</section>
+
+
+
+
+
+<footer>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, voluptatem.</p>
+</footer>
+
+<!-- div y Span. Son los elementos en bloque por default-->
+<div>Los elementos en bloque por default</div>
+<span>Los elementos en linea por default</span>
+
+<br>
+<!--Enlace absoluto o externa: redirecciona a una web externa / href-->
+<a href="https://google.com">
+ver mas
+</a>
+
+<!-- Enlace relativo: me redirecciona a otro archivo dentro de mi proyecto-->
+<br>
+<a href="servicios.html">
+    relativo
+</a>
+
+<!-- Enlace interno: dentro de la misma pantalla te lleva a una sección específica. Trata de buscar una sección con un identificador unico que se llame como la referencia-->
+
+<a href="#contacto">
+    Hablemos
+</a>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eius consequuntur est magnam a maxime. At cupiditate doloremque ratione ullam ex atque quidem aperiam, tempore aut voluptatibus libero architecto accusantium!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet reiciendis, amet sapiente quam ratione dicta vitae quia, deserunt, sint recusandae doloribus corporis architecto deleniti. Praesentium explicabo eaque quis sit.
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dolores necessitatibus assumenda, adipisci inventore quos. Dolores natus voluptas provident! Neque unde reprehenderit in beatae necessitatibus iste saepe aliquid est quasi!
+<section id="contacto"></section>
+
+<!-- Enlace relativo + interno: redirecciona y focaliza sobre un id-->
+<a href="pages/servicios.html#plataforma">
+Nuestra plataforma
+</a>
+
+<!--Multimedia-->
+
+<!-- SRC es soucerse, 
+    ALT: 1 texto alternativo descrpitivo del elemnto
+        2: sirve para motor de búsqueda de navegadores (SEO o posicionamiento organico)
+        3: accesibilidad Porque explica de que se trata el elemnto y lo traudce en el sistema de apoyo-->
+ <img src="Image/errorth.jpg" alt="Error th">
+ <video src=""></video>
+ <audio src=""></audio>
+
+ <!-- IFRAME: Un extracto del codigo html de la web de donde estas extrayendo el elemento multimedia-->
+
+
+
+ <!-- Listas desordenadas, UL es la general y la IL debe estar envuelta en la misma-->
+ <ul id="test">
+    <li>
+        <a href="">Huevos</a> 
+    </li>
+ </ul>
+
+ <!-- Listas ordenadas-->
+
+ <ol>
+    <li>Mezclar los huevos</li>
+    <li>comer la torta</li>
+
+ </ol>
+
+
+<!-- Tablas-->
+
+<table>
+    <!-- tr: da el inicio o fin de una fila-->
+    <tr>
+        <!-- td: inicializa las columnas-->
+        <td>
+            Fecha
+        </td>
+        <td>
+            nombres
+        </td>
+        <td>
+            Direccion
+        </td>
+
+    </tr>
+</table>
+
+<section>
+<p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, iste.
+</p>
+
+</section>
+
+
+<!-- Form: atributos, action: a donde es que vamos a mandar la información de un formulario.
+            El method: como lo mandamos, generalmente mandamos GET y POST. POST envia de manera invisible. GET envia mediante la URL-->
+
+<form action="form.php" method="POST">
+
+<!-- Input name y pass-->
+
+<label for="">Nombre y apellido</label>
+<INPUT:text name="nombre" id="nombre" placeholder="Nico Casu"></INPUT:text>
+
+<label for="">Contraseña</label>
+<input type="password" name="" id="">
+
+<select name="" id="">
+    <option value="">Talle de remera xl</option>
+    <option value="">Medium</option>
+</select>
+
+<p>Comentarios</p>
+<textarea name="" id="" cols="30" rows="10"></textarea>
+
+</form>
+<!-- Input name y pass-->
+
+<!-- Select y options-->
+
+<!-- Text area-->
+
+<!-- Input checkbox-->
+
+<!-- Input submit-->
+
+<!--Fin form--> 
+
+
+
+
+<!-- CSS-->
+<a href="">Hola</a>
+<div>
+    Anchos y altos
+</div>
+
+<!-- GRID-->
+
+
+
+
+
+
+
+
+</body>
+</html> 

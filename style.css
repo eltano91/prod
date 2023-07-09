@@ -1,0 +1,30 @@
+
+
+@font-face {
+   
+    font-family: 'roboto-general';
+    src: url("Roboto/Roboto-Bold.ttf");
+}
+
+
+
+
+/*Banner*/
+
+.fondoheader{
+    background-color: red;
+    height: 200px;
+    background-repeat:no-repeat;
+}
+
+
+/*Titulos*/
+
+h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:bolder;
+    justify-content: center;
+
+
+}
+
