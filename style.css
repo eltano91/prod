@@ -6,7 +6,24 @@
     src: url("Roboto/Roboto-Bold.ttf");
 }
 
+/*Fondo*/
 
+.fondo{
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; 
+backdrop-filter: blur(2px);
+backdrop-filter: brightness(60%);
+backdrop-filter: contrast(40%);
+backdrop-filter: drop-shadow(4px 4px 10px blue);
+backdrop-filter: grayscale(30%);
+backdrop-filter: hue-rotate(120deg);
+backdrop-filter: invert(70%);
+backdrop-filter: opacity(20%);
+backdrop-filter: sepia(90%);
+backdrop-filter: saturate(80%);
+background-image: url(img/fondotango.jpg);
+}
 
 
 /*Banner*/
@@ -68,7 +85,86 @@ h1{
     font-family: 'Nunito Sans', sans-serif;
     font-weight:bolder;
     justify-content: center;
+    color: white;
+    text-align: center;
 
 
 }
 
+
+
+
+
+
+
+
+/*Novedades*/
+
+
+#Inicio{
+    display: grid;
+    grid-template-columns: 33%, 33%, 33%;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: 
+    "novedades novedades novedades"
+    "card1 card2 card3";
+    
+    ;
+}
+
+.novedades{
+    display: grid;
+grid-area: novedades;
+text-align: center;
+}
+
+
+#card1{
+    display: grid;
+grid-area: card1;
+
+}
+
+#card2{
+    display: grid;
+grid-area: card2;
+}
+
+#card3{
+    display: grid;
+grid-area: card3;
+}
+
+.card-title{
+    font-weight: bolder;
+    justify-content: center;
+    justify-self: auto;
+}
+
+.card{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/*Exposicion alumnos*/
+
+.Exposicionalumnos{
+    text-align: center;
+}
+
+
+
+/*Ubicacion*/
+
+.ubicacion{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 30%;
+}

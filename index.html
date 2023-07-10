@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alicia Vazquez</title> 
+<!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- CSS-->
 <link rel="stylesheet" href="style.css">
 
@@ -36,10 +38,12 @@
           <a href="#">Logo</a>
         </div>
         <ul class="navbar-links">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Acerca de</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#expoalumnos">Alumnos</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#multimedia">Multimedia</a></li>
+          <li><a href="#multimedia">Contacto</a></li>
         </ul>
       
       </nav>
@@ -48,62 +52,127 @@
 
 </header>
 
+<body>
+    
+
+<!-- Fondo-->
+
+
+<div class="fondo">
+        
+
+
+
+
 
 <!-- Inicio-->
 <div class="Inicio">
 
     <div id="Inicio">
-        <h1>Nuevo Curso</h1>
-        <img src="img/cursotango.jpeg" alt="Cursotango">
-        <p>A partir del 04/06 se abre un nuevo curso para todo tipo de alumnos</p>
+        <h1 class="novedades">Novedades</h1>
+       
 
-        <h1>Nuevos Show</h1>
-        <img src="img/showdetango.jpg" alt="showdetango">
-        <p>Nuevo show en La Bohemia, viernes 09/06 a las 22:00. Te esperamos </p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26262.526192293702!2d-58.48318448831964!3d-34.6340955361113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca249206c965%3A0x4e1585e3e0f19ce3!2sLa%20Bohemia%20Caf%C3%A9%20Concert!5e0!3m2!1ses-419!2sar!4v1685926551245!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+        <div class="card" id="card1" style="width: 20rem;">
+            <img src="img/cursotango.jpeg" class="card-img-top card1" alt="Cursotango">
+            <div class="card-body">
+              <h5 class="card-title">Taller hablemos de tango</h5>
+              <p class="card-text">A partir del 04/06 se abre un nuevo curso para todo tipo de alumnos</p>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+            </div>
+          </div>
+
+
+
+
+
+        <div class="card" id="card2" style="width: 20rem;">
+            <img src="img/showdetango.jpg" class="card-img-top card2" alt="showdetango">
+            <div class="card-body">
+              <h5 class="card-title">Show en la Bohemia 15/09</h5>
+              <p class="card-text">Proximamente informaremos canales de venta</p>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+            </div>
+        </div>
+            
+           
+
+
+
+
+        <div class="card" id="card3" style="width: 20rem;">
+            <img src="img/showdetango.jpg" class="card-img-top card3" alt="showdetango3">
+            <div class="card-body">
+              <h5 class="card-title">Show en la Homero Manzi 15/11</h5>
+              <p class="card-text">Proximamente informaremos canales de venta</p>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+            </div>
+
+
+        
     </div>
-
+</div>
 
 </div>
 
 
+<br>
+<br>
+<br>
+
+<!-- Expoalumnos-->
 
 
-
-<!-- Shows-->
-
-
-<div id="shows">
+<div id="expoalumnos">
 
     <div class="Exposicionalumnos">
         <h1>Exposicion de Alumnos</h1>
-        <img src="img/expoalumnos.jpg" alt="expoalumnos">
-        <h2>Tango a la carta</h2>
-        <img src="img/showtango.jpg" alt="showtango">
+    
+   
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/expoalumnos.jpg" class="d-block w-100" alt="expoalumnos">
+              </div>
+              <div class="carousel-item active">
+                <img src="img/showtango.jpg" class="d-block w-100" alt="showtango">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+          </div>
+
+        </div>
+
     </div>
-
-
-</div>
-
-
 
 
 
 <!-- Talleres-->
 
 
-<div id="talleres">
+<div id="ubicacion">
 
     <div class="talleres">
-        <h1>Respiracion artistica</h1>
-        <img src="img/taller.jpg" alt="respiracion">
-        <h2>Historia del tango</h2>
-        <img src="img/historia-del-tango.jpg" alt="historiadeltango">
+        <h1>Ubicacion</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13132.848180047993!2d-58.4538325!3d-34.6240814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca249206c965%3A0x4e1585e3e0f19ce3!2sLa%20Bohemia%20Caf%C3%A9%20Concert!5e0!3m2!1ses-419!2sar!4v1688963184924!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="ubicacion"></iframe>
     </div>
 
 
 </div>
+
+
 
 
 
@@ -113,25 +182,28 @@
 
 <div id="cursos">
 
-    <div class="talleres">
+    <div class="cursos">
         <h1>Clases individuales</h1>
         <img src="img/claseindividual.jpg" alt="clasesindividuales">
         <h2>Historia del tango</h2>
         <img src="img/clasegrupaltango.jpg" alt="clasegrupaltango">
     </div>
 
+    <div>
+        <h1>Clases Individuales</h1>
+        <img src="img/clasesindividualestango.jpg" alt="clasetango">
+    </div>
 
 </div>
+
+
+
 
 
 <!-- Multimedia-->
 
 
 <div id="multimedia"></div>
-
-
-<h1>Clases Individuales</h1>
-<img src="img/clasesindividualestango.jpg" alt="clasetango">
 
 
 <h1>Disco</h1>
@@ -165,6 +237,7 @@
 
 <br>
 <footer>Todos los derechos reservados</footer>
+</div>
 </body>
 
 
